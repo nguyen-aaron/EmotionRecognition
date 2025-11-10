@@ -2,7 +2,7 @@
 
 This project detects and classifies human emotions in real time using computer vision and deep learning. By analyzing facial expressions captured from a webcam or video feed, the system identifies emotions such as **happy**, **sad**, **angry**, **surprised**, **neutral**, and more.  
 
-Built with **Python** and **YOLOv8**, this project demonstrates how modern deep learning models can be applied to emotion recognition tasks efficiently and accurately.
+Built with **Python**, **OpenCV**, and **YOLOv8**, this project demonstrates how modern deep learning models can be applied to emotion recognition tasks efficiently and accurately.
 
 ---
 
@@ -22,6 +22,7 @@ Built with **Python** and **YOLOv8**, this project demonstrates how modern deep 
 | **Python** | Core programming language |
 | **YOLOv8** | Object detection backbone for identifying faces |
 | **PyTorch** | Deep learning framework for model inference |
+| **OpenCV** | Real-time video capture and image processing |
 | **NumPy / Pandas** | Data handling and processing |
 | **Matplotlib** | Optional graphing of emotion trends |
 
@@ -29,6 +30,6 @@ Built with **Python** and **YOLOv8**, this project demonstrates how modern deep 
 
 ## Install Dependancies
 
-pip install ultralytics
-pip install opencv-python
+- pip install ultralytics
+- pip install opencv-python
 
