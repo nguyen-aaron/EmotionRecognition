@@ -26,3 +26,5 @@ Built with **Python** and **YOLOv8**, this project demonstrates how modern deep 
 | **Matplotlib** | Optional graphing of emotion trends |
 
 ---
+
+pip install ultralytics
