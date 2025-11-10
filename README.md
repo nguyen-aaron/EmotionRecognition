@@ -27,4 +27,8 @@ Built with **Python** and **YOLOv8**, this project demonstrates how modern deep 
 
 ---
 
+## Install Dependancies
+
 pip install ultralytics
+pip install opencv-python
+
