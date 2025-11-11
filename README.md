@@ -33,3 +33,13 @@ Built with **Python**, **OpenCV**, and **YOLOv8**, this project demonstrates how
 - pip install ultralytics
 - pip install opencv-python
 
+
+## How to Train Model
+
+For detection:
+yolo task=detect mode=train model=yolov8n-cls.pt data=dataset epochs=50 imgsz=64 batch=32 lr0=0.001 optimizer=Adam
+
+For classification:
+yolo task=classify mode=train model=yolov8n-cls.pt data=FER2013 epochs=50 imgsz=64 batch=32 lr0=0.001 optimizer=Adam
+
+
