@@ -3,7 +3,7 @@ import cv2
 
 # Load models
 face_detector = YOLO("yolov8n-face.pt")  # face detection model
-emotion_model = YOLO("runs/classify/train/weights/best.pt")  # emotion classifier
+emotion_model = YOLO("runs/classify/train/weights/best(2).pt")  # emotion classifier
 
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
