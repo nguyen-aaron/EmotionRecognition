@@ -12,7 +12,7 @@ Built with **Python**, **OpenCV**, and **YOLOv8**, this project demonstrates how
 - 🤖 **YOLOv8 model** for robust face detection and emotion classification  
 - 🧠 **Multi-class emotion recognition** (e.g., happy, sad, angry, surprised, neutral)  
 - 📊 **Live visualization** of detection results with bounding boxes and emotion labels
-- 👤 Real-time Interactive Human Feedback (RIHF) – allows the user to confirm or correct model predictions live, saving verified faces for incremental training
+- 👤 **Real-time Interactive Human Feedback (RIHF)** – allows the user to confirm or correct model predictions live, saving verified faces for incremental training
 
 ---
 
