@@ -5,7 +5,7 @@ import time
 
 # Load models
 face_detector = YOLO("yolov8n-face.pt")  # face detection model
-emotion_model = YOLO("runs/classify/train/weights/best(2).pt")  # emotion classifier
+emotion_model = YOLO("runs/classify/train/weights/best(3).pt")  # emotion classifier 100 epoch (3) if 50 epoch use (2)
 
 cap = cv2.VideoCapture(0)
 if not cap.isOpened():
